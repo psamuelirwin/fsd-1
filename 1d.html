@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Map Example</title>
+</head>
+<body>
+
+    <img src="C:\Users\Dell\OneDrive\Pictures\Images\flower.jfif"
+         usemap="#image"
+         width="600"
+         height="900">
+
+    <map name="image">
+
+        <!-- Top part of flower -->
+        <area shape="rect"
+              coords="0,0,600,300"
+              alt="flower petals"
+              href="https://en.wikipedia.org/wiki/Flower">
+
+        <!-- Middle circular part -->
+        <area shape="circle"
+              coords="300,420,120"
+              alt="flower center"
+              href="https://en.wikipedia.org/wiki/Inflorescence">
+
+        <!-- Bottom part -->
+        <area shape="rect"
+              coords="0,600,600,900"
+              alt="stem"
+              href="https://en.wikipedia.org/wiki/Plant_stem">
+
+    </map>
+
+</body>
+</html>
